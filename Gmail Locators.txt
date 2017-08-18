@@ -1,0 +1,2 @@
+List of inbox
+.//table[@class = 'F cf zt']/tbody/tr
