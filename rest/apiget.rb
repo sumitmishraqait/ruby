@@ -29,8 +29,13 @@ url="http://computer-database.gatling.io/computers"
   puts "Get current user failed!!"
   end
 resp=RestClient.post url,:name=>"sumit",:introduced=>"2017-07-24",:discontinued=>"2017-07-24",:company=>"5"
-@data1  = Nokogiri::HTML(resp.body)
-puts"#{@data1}"
+
+resp1=RestClient.get (url"?f=sumit")
+@resdata1= Nokogiri::HTML(resp1.body)
+li1=@resdata1.css('tbody tr td a')
+li1.each do|table|
+    puts"#{table.text}"
+end
 if resp.code == 200
 puts "********* new Get current user successful"
 else
