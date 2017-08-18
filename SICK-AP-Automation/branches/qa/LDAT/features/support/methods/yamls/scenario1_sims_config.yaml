@@ -1,0 +1,15 @@
+---
+systemdata_sim:
+    SOSA_simulator_path: features/support/methods/sims/sosa/SosaBatchClient.jar
+    systemdata_input_xml_path: features/support/methods/sim_data/scenario1/systemdata.xml
+    systemdata_params: /IP 10.102.11.224 /DELAY 2000 /TUNNEL 01 /NOTIME
+    systemdata_log_file_path: features/support/methods/logs/scenario1/systemdata.log
+    systemdata_log_closing_statement: Send File Complete
+    systemdata_connection_error_statement: Connection refused
+imagedata_sim:
+    FTP_simulator_path: features/support/methods/sims/ftp/FtpTestClient.jar
+    imagedata_input_xml_path: features/support/methods/sim_data/scenario1/imagedata.xml
+    imagedata_params:
+    imagedata_log_file_path: features/support/methods/logs/scenario1/imagedata.log
+    imagedata_log_closing_statement: FtpTestClient Ended
+    imagedata_connection_error_statement: COULD NOT CONNECT

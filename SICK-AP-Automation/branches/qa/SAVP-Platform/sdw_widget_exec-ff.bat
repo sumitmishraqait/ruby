@@ -1,0 +1,1 @@
+cucumber features/sdw_widget.feature --tags ~@fail --tags ~@FFfail -f html -o reports/Firefox/results_sdw_widget_ff-%date:~10,4%%date:~7,2%%date:~4,2%_%time:~1,1%%time:~3,2%.html

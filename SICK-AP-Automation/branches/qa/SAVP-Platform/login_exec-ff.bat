@@ -1,0 +1,1 @@
+cucumber features/login.feature --tags ~@fail --tags ~@featureNotDevYet --tags ~@FFfail -f html -o reports/Firefox/results_login_ff-%date:~10,4%%date:~7,2%%date:~4,2%_%time:~1,1%%time:~3,2%.html

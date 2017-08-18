@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config> 
+	<sending>
+		<sendDelay>100</sendDelay>
+		<maxImagesPerCamera>99999</maxImagesPerCamera>
+		<ftpServer>10.102.11.243</ftpServer>
+        <ftpPort>2021</ftpPort>
+	</sending>
+	<conversion>
+		<type>RENAME</type>
+		<tunnel>01</tunnel>
+	</conversion>	
+	<camera>
+		<name>TOP</name>
+		<password>sick</password>
+		<fullsizeImagePath>C:\Users\singhsa1\Desktop\SICK-Automation\SICK-AP-Automation\branches\local\features\support\methods\sims\ftp\Images\Full\01FL</fullsizeImagePath> 
+		<thumbnailImagePath>C:\Users\singhsa1\Desktop\SICK-Automation\SICK-AP-Automation\branches\local\features\support\methods\sims\ftp\Images\Thumb\01FL</thumbnailImagePath> 
+		<xmlFilePath>C:\Users\singhsa1\Desktop\SICK-Automation\SICK-AP-Automation\branches\local\features\support\methods\sims\ftp\Images\Full\01FL</xmlFilePath>
+	</camera>
+	<!--
+	<camera>
+		<name>L29</name>
+		<password>sick</password>
+		<fullsizeImagePath>C:\Users\singhsa1\Desktop\SICK-Automation\Jar from Ruby\Images\Full\01FL</fullsizeImagePath> 
+		<thumbnailImagePath>C:\Users\singhsa1\Desktop\SICK-Automation\Jar from Ruby\Images\Thumb\01FL</thumbnailImagePath> 
+		<xmlFilePath>C:\Users\singhsa1\Desktop\SICK-Automation\Jar from Ruby\Images\Full\01FL</xmlFilePath>
+	</camera>	
+	<camera>
+		<name>L29</name>
+		<password>sick</password>
+		<fullsizeImagePath>C:\Users\padmade\Documents\BaggageAnalytics\SOW28CO2-SourceFIlesSent\Test_Data_Images_BGA_IR5\Lector Standalone with Images\ImagesLector\Full\L29</fullsizeImagePath> 
+		<thumbnailImagePath>C:\Users\padmade\Documents\BaggageAnalytics\SOW28CO2-SourceFIlesSent\Test_Data_Images_BGA_IR5\Lector Standalone with Images\ImagesLector\Full\L29</thumbnailImagePath> 
+		<xmlFilePath>C:\Users\padmade\Documents\BaggageAnalytics\SOW28CO2-SourceFIlesSent\Test_Data_Images_BGA_IR5\Lector Standalone with Images\ImagesLector\Full\L29</xmlFilePath>
+	</camera>
+	-->	
+</config>
+
+
+
+

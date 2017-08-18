@@ -1,0 +1,20 @@
+<build>
+		<plugins>
+			<plugin>
+			<groupId>assignmnet6</groupId>
+				<artifactId>Test</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+
+	</build>
